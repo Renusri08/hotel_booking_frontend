@@ -8,7 +8,7 @@ import toast from "react-hot-toast";
 
 
 const axiosInstance = axios.create({
-  baseURL: "https://hotel-booking-backend-drx1.onrender.com/",  // ✅ Correct
+  baseURL: "https://hotel-booking-backend-drx1.onrender.com",  // ✅ Correct
   withCredentials: true
 });
 
