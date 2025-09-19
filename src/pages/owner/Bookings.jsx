@@ -87,7 +87,7 @@ const Bookings = () => {
             <div className="col-span-3">Payment</div>
             <div className="col-span-2">Status</div>
           </div>
-  
+          {console.log("owner-booking Data:",bookingData)}
           {/* Bookings Rows */}
           <div className="divide-y divide-gray-100">
             {bookingData.map((booking) => {
