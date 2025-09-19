@@ -114,7 +114,7 @@ const AllRooms = () => {
                     <td className="px-6 py-6">
                       <div className="flex items-center space-x-4">
                         <div className="relative">
-                          <img src={`http://localhost:4000/images/${room.images[0]}`} alt={room.roomType} className="w-20 h-16 rounded-xl object-cover shadow-md"/>
+                          <img src={`https://hotel-booking-backend-drx1.onrender.com/images/${room.images[0]}`} alt={room.roomType} className="w-20 h-16 rounded-xl object-cover shadow-md"/>
                          </div>
                           <div className='text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors'>
                             {room.hotel.hotelName}

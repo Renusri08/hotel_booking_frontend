@@ -1,14 +1,14 @@
 import { createContext ,useState,useEffect} from "react";
 import {useNavigate} from "react-router-dom";
 import React from "react";
-import { roomsData} from "../assets/assets";
+// import { roomsData} from "../assets/assets";
 import axios from "axios";
 import toast from "react-hot-toast";
 
 
 
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL,  // ✅ Correct
+  baseURL: "https://hotel-booking-backend-drx1.onrender.com/",  // ✅ Correct
   withCredentials: true
 });
 

@@ -113,7 +113,7 @@ const deleteHotel=async(id)=>{
                     <td className="px-6 py-6">
                       <div className="  space-x-4">
                         <div className="relative">
-                          <img src={`http://localhost:4000/images/${hotel.image}`} alt={hotel.name} className="w-full h-15 rounded-xl object-cover shadow-md"/>
+                          <img src={`https://hotel-booking-backend-drx1.onrender.com/images/${hotel.image}`} alt={hotel.name} className="w-full h-15 rounded-xl object-cover shadow-md"/>
                          </div>
                           <div className='text-lg  text-justify font-semibold text-gray-800 hover:text-blue-600 transition-colors'>
                             {hotel.hotelName}

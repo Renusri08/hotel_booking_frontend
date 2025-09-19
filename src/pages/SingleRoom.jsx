@@ -193,13 +193,13 @@ const SingleRoom = () => {
           <h2 className='text-2xl font-bold text-gray-800 mb-6'>Room Gallery</h2>
           <div className='grid lg:grid-cols-3 gap-6'>
             <div className="lg:col-span-2">
-              <img src={`http://localhost:4000/images/${room.images[selectedImage]}`} alt={`${room.roomType}-Image ${selectedImage +1}`}
+              <img src={`https://hotel-booking-backend-drx1.onrender.com/images/${room.images[selectedImage]}`} alt={`${room.roomType}-Image ${selectedImage +1}`}
               className="w-full h-96 object-cover rounded-xl"/>
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-1 gap-4">
               {
                 room.images.map((image,index)=>(
-                  <img key={index} src={`http://localhost:4000/images/${image}`} alt={`Thumbnail ${index +1}`}
+                  <img key={index} src={`https://hotel-booking-backend-drx1.onrender.com/images/${image}`} alt={`Thumbnail ${index +1}`}
                   className={`h-24 lg:h-20 object-cover rounded-lg cursor-pointer transition-all duration-200 ${
                     selectedImage===index?"ring-4 ring-blue-500 opacity-100":"opacity-70 hover:opacity-100"
                     }`}

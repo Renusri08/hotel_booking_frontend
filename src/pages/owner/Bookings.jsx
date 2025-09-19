@@ -102,7 +102,7 @@ const Bookings = () => {
                     <div className="col-span-1 md:col-span-4">
                       <div className="flex gap-4 items-center">
                         <img
-                          src={`http://localhost:4000/images/${booking.room?.images?.[0]}`}
+                          src={`https://hotel-booking-backend-drx1.onrender.com/images/${booking.room?.images?.[0]}`}
                           alt={booking.room.roomType}
                           className="w-32 h-24 md:w-40 md:h-28 rounded-lg object-cover flex-shrink-0"
                         />

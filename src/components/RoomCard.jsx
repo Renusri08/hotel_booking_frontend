@@ -10,7 +10,7 @@ const RoomCard = (props) => {
     transition={{duration:2,ease:"easeInOut"}}>
      
      <div className='rounded-xl shadow-xl overflow-hidden transiton-transform duration ease-out max-w-80 bg-white px-3 md:px-5'>
-        <img src={`http://localhost:4000/images/${room.images[0]}`} alt="" className="w-full h-52 object-cover">
+        <img src={`https://hotel-booking-backend-drx1.onrender.com/images/${room.images[0]}`} alt="" className="w-full h-52 object-cover">
         </img>
         <h1 className="mt-3 px-4 pt-3 mb-1 text-lg font-semibold text-heading">
             {room.roomType}

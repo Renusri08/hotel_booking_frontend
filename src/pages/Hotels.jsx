@@ -13,7 +13,7 @@ const Hotels = () => {
                 hotelData.map((item,index)=>(
                     <motion.div key={index} animate={{y:[0,-30,0]}} transition={{duration:2,ease:"easeInOut",repeat:Infinity}}
                     className='relative group rounded-lg overflow-hidden cursor-pointer'>
-                        <img src={`http://localhost:4000/images/${item.image}`} alt="" className='size-56 object-cover object-top'></img>
+                        <img src={`https://hotel-booking-backend-drx1.onrender.com/images/${item.image}`} alt="" className='size-56 object-cover object-top'></img>
                         <div className='absolute inset-0 flex flex-col justify-end p-4 text-white bg-black/50 opacity-0 group-hover:opacity-100 transition-all duration-300'>
                         <h1>{item.hotelName}</h1>
                         <p>{item.hotelAddress}</p>
