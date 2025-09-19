@@ -107,6 +107,7 @@ const MyBookings = () => {
           </div>
   
           {/* Bookings Rows */}
+          {console.log("bookingData",bookingData)}
           <div className="divide-y divide-gray-100">
             {bookingData.map((booking) => {
              
